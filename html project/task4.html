@@ -1,0 +1,50 @@
+
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Forms in HTML</title>
+     <style>
+      
+         label {
+             display: inline-block;
+             width: 150px;
+             text-align: left;
+         }
+         input, select {
+             margin-left: 10px;
+         }
+     </style>
+ </head>
+ <body>
+     <form action="">
+         <label for="fullname">Full Name:</label>
+         <input type="text" id = "fullname" name = "fullname" placeholder = "Vincent Maverick Durano">
+         <br><br>
+         <label for="username">Username:</label>
+         <input type="text" id = "username" name = "username" placeholder = "Vinz">
+         <br><br>
+         <label for="password">Password:</label>
+         <input type="password" id = "password" name = "password" placeholder = "password">
+         <br><br>
+         <label for="confirm_password">Re Password:</label>
+         <input type="password" id = "confirm_password" name = "confirm_password" placeholder="password">
+         <br><br>
+         <label for="address">Address:</label>
+         <input type="text" id = "address" name = "address" placeholder = "Cebu, Phillipines">
+         <br><br>
+         <label for="age">Age:</label>
+         <input type="text" id = "age" name = "age" placeholder = "22">
+         <br><br>
+         <label for="gender">Gender:</label>
+         <select name="" id="" aria-placeholder="male">
+             <option value="male" id = "male">Male</option>
+             <option value="female" id = "female">Female</option>
+             <option value="other" id = "other">Other</option>
+         </select>
+         <br><br>
+         <button id = "save" name = "save">Save</button>
+     </form>
+ </body>
+ </html>
